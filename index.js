@@ -14,7 +14,7 @@ export function ActionClass() {
           // Add action creator
           target.prototype[method] = function (actionPayload) {
             return {
-              type: actionType,
+              type: actionName,
               payload: actionPayload,
             };
           }
@@ -22,6 +22,8 @@ export function ActionClass() {
           // Add action type
           target[actionType] = actionName;
         });
+
+        return target;
     }
 }
 
