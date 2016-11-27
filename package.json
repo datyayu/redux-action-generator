@@ -1,0 +1,11 @@
+{
+  "name": "redux-action-generator",
+  "version": "1.0.0",
+  "description": "A module to reduce action creators boilerplate",
+  "main": "index.js",
+  "author": "Arturo Coronel <Aoitsu3@gmail.com> (https://datyayu.xyz)",
+  "license": "MIT",
+  "dependencies": {
+    "change-case": "^3.0.0"
+  }
+}
